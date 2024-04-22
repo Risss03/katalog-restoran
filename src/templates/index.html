@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ResToRis</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
+
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body>
+  <a href="#maincontent" class="skip-link" tabindex="0">Menuju Ke Konten</a>
+  <nav class="navbar">
+    <a href="#" class="navbar-logo">ResTo<span>Ris</span>.</a>
+
+    <div class="navbar-nav">
+      <a href="/">Home</a>
+      <a href="#">favorite</a>
+      <a href="https://github.com/Risss03">Contact Us</a>
+    </div>
+
+    <div class="navbar-extra">
+      <a href="#" id="search"><i data-feather="search"></i></a>
+      <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+      <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+    </div>
+  </nav>
+
+  <div class="drawer" id="drawer">
+    <a href="/">Home</a>
+    <a href="#">favorite</a>
+    <a href="https://github.com/Risss03">Contact Us</a>
+  </div>
+
+  <!-- Hero Element (Jumbotron Element) -->
+  <div class="hero" id="home">
+    <main class="content">
+      <h1>Isi perutmu dengan makanan sesuai <span>selera </span>anda.</h1>
+      <p>makan sebelum lapar minum sebelum haus.</p>
+      <a href="#" class="cta">Info Lebih Lanjut</a>
+    </main>
+  </div>
+
+  <!-- Daftar Restoran -->
+  <main id="maincontent">
+    <section id="about" class="about">
+      <h1>Daftar Restaurant</h1>
+      <div id="restaurantList"></div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="social" id="kontak">
+      <a href="#"><i data-feather="instagram"></i></a>
+      <a href="#"><i data-feather="linkedin"></i></a>
+      <a href="#"><i data-feather="github"></i></a>
+    </div>
+
+    <div class="links">
+      <a href="#">Help</a>
+      <a href="#">About</a>
+      <a href="#kontak">Contact</a>
+    </div>
+
+    <div class="credit">
+      <p>Copyright © 2024 - ResToRis</p>
+    </div>
+  </footer>
+  
+  <script>
+    feather.replace();
+  </script>
+
+  <script src="../scripts/index.js"></script>
+</body>
+</html>
